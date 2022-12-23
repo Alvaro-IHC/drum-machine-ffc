@@ -1,10 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+
+  const handle = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    console.log('Hello');
+    console.log(e);
+  }
+
   return (
-    <div className="App">
+    <div className="App" onKeyDown={handle}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +24,7 @@ function App() {
         >
           Learn React
         </a>
+        {/* <button onKeyDown={handle}>Hi</button> */}
       </header>
     </div>
   );
