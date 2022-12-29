@@ -1,0 +1,13 @@
+.btn {
+  background-color: gray;
+  min-width: 1rem;
+  padding: 1.5rem;
+  border-radius: .3rem;
+  box-shadow: black 3px 3px 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn:active {
+  background-color: orange;
+}

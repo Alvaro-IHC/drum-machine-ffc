@@ -1,0 +1,11 @@
+#display {
+  background-color: gray;
+  width: 85%;
+  min-width: 7rem;
+  padding: .8rem;
+  height: fit-content;
+  min-height: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}

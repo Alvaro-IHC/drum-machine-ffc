@@ -1,6 +1,7 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
+<<<<<<< HEAD
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +19,15 @@
       "sizes": "512x512"
     }
   ],
+=======
+  "icons": [],
+>>>>>>> e6d6893 (Added: logic and styles without volume)
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e6d6893 (Added: logic and styles without volume)

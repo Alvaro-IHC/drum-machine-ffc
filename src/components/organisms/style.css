@@ -1,0 +1,8 @@
+#drum {
+  background-color: #b3b3b3;
+  border: .3rem solid orange;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2rem;
+}

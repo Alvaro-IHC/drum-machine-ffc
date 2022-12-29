@@ -1,31 +1,30 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { useEffect } from "react";
+import Box from "@mui/material/Box";
 import "./App.css";
+import Drum from "./components/organisms/Drum";
 
 function App() {
-
   const handle = (e: React.KeyboardEvent<HTMLDivElement>) => {
-    console.log('Hello');
+    console.log("Hello");
     console.log(e);
-  }
+  };
 
   return (
-    <div className="App" onKeyDown={handle}>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        {/* <button onKeyDown={handle}>Hi</button> */}
-      </header>
+    <div className='App'>
+      <Box
+        id='drum-machine'
+        sx={{
+          margin: "auto",
+          width: 300,
+          height: 300,
+          display: "grid",
+          justifyContent: "center",
+          alignItems: "center",
+          gridTemplate: "1fr 1fr",
+        }}
+      >
+        <Drum id='drum' className='cl-drum' />
+      </Box>
     </div>
   );
 }
